@@ -94,3 +94,14 @@ a {
   background-size: cover;
   background-position: center;
 }
+.form-section {
+  height: 500px;
+}
+input[type="text"] {
+  background-color: transparent;
+  outline: 1px solid #000;
+}
+textarea[type="text"] {
+  background-color: transparent;
+  outline: 1px solid #000;
+}

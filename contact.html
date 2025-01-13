@@ -3,7 +3,161 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Project Page</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/inde.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="main-page container-fluid p-0">
+      <header>
+        <div class="row m-0 h-100">
+          <div class="col-md-4 d-flex align-items-center">
+            <div class="yellow-circle"></div>
+            <h5 class="ms-2">Nicol Editor</h5>
+            <p class="ms-2">Editor</p>
+          </div>
+          <div class="col-md-8 d-flex align-items-center justify-content-end">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="Resume.html" class="nav-link">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a href="projects.html" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container content-section p-4">
+        <div class="form-section">
+          <div class="row m-0">
+            <div class="col-md-6">
+              <h2><b>Contact</b></h2>
+              <small class="text-muted">
+                Looking forward to hearing from you
+              </small>
+              <br />
+              <b>Phone</b>
+              <br />
+              <small class="text-muted"> (123) 456-7890 </small>
+              <br />
+              <b>Email</b>
+              <br />
+              <small class="text-muted"> nicol@example.com </small>
+            </div>
+            <div class="col-md-6 p-0">
+              <form class="form">
+                <div class="form-froup mb-3">
+                  <div class="row m-0">
+                    <div class="col-md-6 p-0">
+                      <label for="name" class="form-label">First Name</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6 ps-2">
+                      <label for="email" class="form-label">Last Name</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <div class="row m-0">
+                    <div class="col-md-6 p-0">
+                      <label for="phone" class="form-label">Email</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="phone"
+                        placeholder="Enter your Email"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6 ps-2">
+                      <label for="subject" class="form-label">Subject</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="subject"
+                        placeholder="Enter your subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control rounded-0"
+                    type="text"
+                    id="message"
+                    rows="3"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group m-3">
+                  <button
+                    type="submit"
+                    class="btn btn-warning rounded-pill w-100 p"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="row m-0 h-100">
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="call">
+              <b>Phone</b><br />
+              <a href="tel:123-456-7890" class="text-muted">123-456-7890</a>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="email">
+              <b>Email</b><br />
+              <a href="mailto:nicol@example.com" class="text-muted"
+                >nicol@example.com</a
+              >
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="location">
+              <b>Location</b><br />
+              New York, NY 10001
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <small class="text-muted">
+              &copy; 2025 By Nicol Rider
+              <br />
+              Powered and secured by WIX
+            </small>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
