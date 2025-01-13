@@ -70,3 +70,9 @@ header .nav-item:last-child {
 a {
   text-decoration: none;
 }
+.resume_content {
+  width: 90%;
+}
+.exp {
+  border-bottom: 1px solid #c7c7c7;
+}
